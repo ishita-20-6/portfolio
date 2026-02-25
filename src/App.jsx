@@ -48,7 +48,7 @@ export default function App() {
         {/* Social Icons */}
         <div className="flex gap-6 text-2xl mb-8">
           <a
-            href="https://github.com/ishita061"
+            href="https://github.com/ishita-20-6"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-400 transition hover:scale-110"
@@ -57,14 +57,18 @@ export default function App() {
           </a>
 
           <a
-            href="#"
+            href="https://www.linkedin.com/in/ishita-chaturvedi-943441303/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-blue-400 transition hover:scale-110"
           >
             <FaLinkedin />
           </a>
 
           <a
-            href="#"
+            href="https://www.linkedin.com/in/ishita-chaturvedi-943441303/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-blue-400 transition hover:scale-110"
           >
             <FaInstagram />
