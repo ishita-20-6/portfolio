@@ -187,7 +187,7 @@ export default function App() {
             {[
               {
                 name: "LeetCode",
-                url: "https://leetcode.com/u/ishita_2005/"
+                url: "https://leetcode.com/u/ishita-20/"
               },
               {
                 name: "GeeksforGeeks",
