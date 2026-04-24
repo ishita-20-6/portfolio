@@ -114,7 +114,13 @@ export default function App() {
             {[
               { title: "Resume Screening System", desc: "AI-based resume parser with ATS score generation.", link: "https://github.com/ishita-20-6" },
               { title: "Blockchain ID System", desc: "Secure student verification system using blockchain.", link: "https://github.com/ishita-20-6/CyberSecure-ID-AI-Blockchain-Based-Student-Verification" },
-              { title: "Portfolio Website", desc: "Personal portfolio built with React & Tailwind.", link: "https://github.com/ishita061" }
+              { title: "Portfolio Website", desc: "Personal portfolio built with React & Tailwind.", link: "https://github.com/ishita061" },
+              {
+                title: "Genie- Gen-AI Based Task Management", desc: "An Intelegent Gen-AI Based task manager.", link: "https://github.com/ishita-20-6/portfolio"
+              },
+              {
+                title: "SudokuApp", desc: "The Sudoku Android App is a mobile-based puzzle game developed using Android Studio and Java.", link: "https://github.com/ishita-20-6/SudokuApp"
+              }
             ].map((project, index) => (
               <div key={index} className="bg-gray-800/60 p-6 rounded-2xl shadow-xl hover:scale-105 hover:-translate-y-2 hover:shadow-blue-500/20 transition duration-300 text-left">
                 <h4 className="text-xl font-semibold mb-3">{project.title}</h4>
