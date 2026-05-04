@@ -135,6 +135,7 @@ export default function App() {
       </section>
 
       {/* PESE-600 Section - Cleaned Layout */}
+      {/* PESE-600 Section - Updated with Google Drive Support */}
       <section id="pese-600" className="py-24 px-6 bg-black/40">
         <div className="max-w-6xl mx-auto">
 
@@ -147,14 +148,13 @@ export default function App() {
             </p>
           </div>
 
-          {/* Video Grid - Fixed spacing and cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
             {[
               {
                 title: "Self Introduction",
                 desc: "Presenting a clear and confident professional background, highlighting key strengths.",
-                // REPLACE_ID_1: The random letters at the end of your YouTube embed link
-                embedUrl: "https://drive.google.com/file/d/1XtAuPrKaMFmPmbJNVioStXJdy_NKGVWR/view?usp=sharing"
+                // Yahan /view ko /preview se replace kiya gaya hai
+                embedUrl: "https://drive.google.com/file/d/1XtAuPrKaMFmPmbJNVioStXJdy_NKGVWR/preview"
               },
               {
                 title: "Resume & Portfolio Session",
@@ -181,14 +181,8 @@ export default function App() {
                 key={index}
                 className="bg-gray-800/40 rounded-3xl border border-gray-700/60 overflow-hidden hover:border-blue-500/50 hover:-translate-y-1 hover:shadow-2xl hover:shadow-blue-900/20 transition-all duration-300 flex flex-col group"
               >
-                {/* Video Container:
-            `aspect-video` keeps it 16:9 perfectly.
-            The inner container and gradient fix the scrollbar and make the card feel cleaner.
-          */}
                 <div className="relative aspect-video w-full bg-black">
-                  <div className="absolute inset-0 z-0 bg-gradient-to-br from-black via-gray-950 to-black">
-                    {/* Optional: Add a placeholder loading spinner here */}
-                  </div>
+                  <div className="absolute inset-0 z-0 bg-gradient-to-br from-black via-gray-950 to-black"></div>
 
                   <iframe
                     className="relative z-10 w-full h-full"
@@ -200,7 +194,6 @@ export default function App() {
                   ></iframe>
                 </div>
 
-                {/* Content below video */}
                 <div className="p-6 md:p-8">
                   <h4 className="text-2xl font-bold text-white group-hover:text-blue-400 mb-2 transition-colors duration-300">
                     {session.title}
