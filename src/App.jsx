@@ -154,7 +154,7 @@ export default function App() {
                 title: "Self Introduction",
                 desc: "Presenting a clear and confident professional background, highlighting key strengths.",
                 // REPLACE_ID_1: The random letters at the end of your YouTube embed link
-                embedUrl: "https://www.youtube.com/embed/REPLACE_ID_1"
+                embedUrl: "https://drive.google.com/file/d/1XtAuPrKaMFmPmbJNVioStXJdy_NKGVWR/view?usp=sharing"
               },
               {
                 title: "Resume & Portfolio Session",
