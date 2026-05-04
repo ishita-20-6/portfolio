@@ -115,12 +115,8 @@ export default function App() {
               { title: "Resume Screening System", desc: "AI-based resume parser with ATS score generation.", link: "https://github.com/ishita-20-6" },
               { title: "Blockchain ID System", desc: "Secure student verification system using blockchain.", link: "https://github.com/ishita-20-6/CyberSecure-ID-AI-Blockchain-Based-Student-Verification" },
               { title: "Portfolio Website", desc: "Personal portfolio built with React & Tailwind.", link: "https://github.com/ishita061" },
-              {
-                title: "Genie- Gen-AI Based Task Management", desc: "An Intelegent Gen-AI Based task manager.", link: "https://github.com/ishita-20-6/portfolio"
-              },
-              {
-                title: "SudokuApp", desc: "The Sudoku Android App is a mobile-based puzzle game developed using Android Studio and Java.", link: "https://github.com/ishita-20-6/SudokuApp"
-              }
+              { title: "Genie- Gen-AI Based Task Management", desc: "An Intelligent Gen-AI Based task manager.", link: "https://github.com/ishita-20-6/portfolio" },
+              { title: "SudokuApp", desc: "The Sudoku Android App is a mobile-based puzzle game developed using Android Studio and Java.", link: "https://github.com/ishita-20-6/SudokuApp" }
             ].map((project, index) => (
               <div key={index} className="bg-gray-800/60 p-6 rounded-2xl shadow-xl hover:scale-105 hover:-translate-y-2 hover:shadow-blue-500/20 transition duration-300 text-left">
                 <h4 className="text-xl font-semibold mb-3">{project.title}</h4>
@@ -134,11 +130,9 @@ export default function App() {
         </div>
       </section>
 
-      {/* PESE-600 Section - Cleaned Layout */}
-      {/* PESE-600 Section - Updated with Google Drive Support */}
+      {/* PESE-600 Section - Google Drive Integrated */}
       <section id="pese-600" className="py-24 px-6 bg-black/40">
         <div className="max-w-6xl mx-auto">
-
           <div className="text-center mb-16">
             <h3 className="text-3xl font-bold mb-4 text-blue-400 flex items-center justify-center gap-3">
               <FaBook className="text-2xl" /> PESE-600: Skill Development
@@ -153,28 +147,27 @@ export default function App() {
               {
                 title: "Self Introduction",
                 desc: "Presenting a clear and confident professional background, highlighting key strengths.",
-                // Yahan /view ko /preview se replace kiya gaya hai
                 embedUrl: "https://drive.google.com/file/d/1XtAuPrKaMFmPmbJNVioStXJdy_NKGVWR/preview"
               },
               {
                 title: "Resume & Portfolio Session",
                 desc: "Expert review of professional documentation, ensuring ATS optimization and project impact.",
-                embedUrl: "https://www.youtube.com/embed/REPLACE_ID_2"
+                embedUrl: "https://drive.google.com/file/d/1aYl4kwfs6GKFGsykG6p-yokI_0MYVxNd/preview"
               },
               {
                 title: "Extempore & JAM",
                 desc: "Drills focused on spontaneous speaking to enhance critical thinking and coherence under pressure.",
-                embedUrl: "https://www.youtube.com/embed/REPLACE_ID_3"
+                embedUrl: "https://drive.google.com/file/d/1XtAuPrKaMFmPmbJNVioStXJdy_NKGVWR/preview"
               },
               {
                 title: "Group Discussion (GD)",
                 desc: "Collaborative problem-solving exercise emphasizing active listening and structured argumentation.",
-                embedUrl: "https://www.youtube.com/embed/REPLACE_ID_4"
+                embedUrl: "https://drive.google.com/file/d/1uB4E8Xpegu3YfcfuXqKzbzeWE0ycOz08/preview"
               },
               {
                 title: "Interview Skills",
                 desc: "Mock interviews covering technical concepts and behavioral questions using the STAR method.",
-                embedUrl: "https://www.youtube.com/embed/REPLACE_ID_5"
+                embedUrl: "https://drive.google.com/file/d/1kqORstnYwbr1JnPgmqq4UVA4gudJ08R6/preview"
               }
             ].map((session, index) => (
               <div
@@ -183,7 +176,6 @@ export default function App() {
               >
                 <div className="relative aspect-video w-full bg-black">
                   <div className="absolute inset-0 z-0 bg-gradient-to-br from-black via-gray-950 to-black"></div>
-
                   <iframe
                     className="relative z-10 w-full h-full"
                     src={session.embedUrl}
@@ -215,28 +207,21 @@ export default function App() {
             <FaCode className="text-2xl" /> Coding Profiles
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-
-            {/* LeetCode Card */}
             <a href="https://leetcode.com/u/ishita-20/" target="_blank" rel="noopener noreferrer"
               className="group bg-gray-800/50 p-8 rounded-2xl border border-gray-700 hover:border-blue-500 transition-all duration-300">
               <h4 className="text-2xl font-bold mb-2 group-hover:text-blue-400">LeetCode</h4>
               <p className="text-gray-400 text-sm">Solved 200+ Problems in C++/Java</p>
             </a>
-
-            {/* GitHub Card - FIXED URL HERE */}
             <a href="https://github.com/ishita-20-6" target="_blank" rel="noopener noreferrer"
               className="group bg-gray-800/50 p-8 rounded-2xl border border-gray-700 hover:border-blue-500 transition-all duration-300">
               <h4 className="text-2xl font-bold mb-2 group-hover:text-blue-400">GitHub</h4>
               <p className="text-gray-400 text-sm">30+ Repositories & Open Source contributions</p>
             </a>
-
-            {/* HackerRank Card */}
             <a href="https://www.hackerrank.com/profile/ishita_20_6" target="_blank" rel="noopener noreferrer"
               className="group bg-gray-800/50 p-8 rounded-2xl border border-gray-700 hover:border-blue-500 transition-all duration-300">
               <h4 className="text-2xl font-bold mb-2 group-hover:text-blue-400">HackerRank</h4>
               <p className="text-gray-400 text-sm">5 Star in Problem Solving & Java</p>
             </a>
-
           </div>
         </div>
       </section>
