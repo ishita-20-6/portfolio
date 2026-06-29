@@ -85,9 +85,11 @@ export default function App() {
         <div className="max-w-4xl mx-auto text-center">
           <h3 className="text-3xl font-bold mb-6 text-blue-400">About Me</h3>
           <p className="text-gray-300 leading-relaxed">
-            Pre-final year Engineering student passionate about problem-solving and development.
-            Skilled in C, C++, Python, Java, React, Node.js, MongoDB, and AWS.
-            Actively improving Data Structures & Algorithms and exploring Machine Learning.
+            Final-year Computer Science Engineering student with a strong inclination toward software engineering, problem-solving, and building scalable 
+            digital solutions. Adept at leveraging modern technologies to develop efficient, user-centric applications, with hands-on experience across 
+            full-stack development, cloud platforms, and databases. Continuously refining my analytical and algorithmic thinking through 
+            Data Structures & Algorithms while exploring emerging domains such as Machine Learning and distributed systems. Driven by curiosity, adaptability, 
+            and a commitment to continuous learning, I aspire to contribute to impactful products that solve meaningful real-world challenges.
           </p>
         </div>
       </section>
