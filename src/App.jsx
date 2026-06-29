@@ -130,75 +130,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* PESE-600 Section - Google Drive Integrated */}
-      <section id="pese-600" className="py-24 px-6 bg-black/40">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
-            <h3 className="text-3xl font-bold mb-4 text-blue-400 flex items-center justify-center gap-3">
-              <FaBook className="text-2xl" /> PESE-600: Skill Development
-            </h3>
-            <p className="text-gray-400 max-w-2xl mx-auto leading-relaxed">
-              A comprehensive record of my professional training sessions and skill assessments, demonstrating readiness for the corporate world.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
-            {[
-              {
-                title: "Self Introduction",
-                desc: "Presenting a clear and confident professional background, highlighting key strengths.",
-                embedUrl: "https://drive.google.com/file/d/1XtAuPrKaMFmPmbJNVioStXJdy_NKGVWR/preview"
-              },
-              {
-                title: "Resume & Portfolio Session",
-                desc: "Expert review of professional documentation, ensuring ATS optimization and project impact.",
-                embedUrl: "https://drive.google.com/file/d/1aYl4kwfs6GKFGsykG6p-yokI_0MYVxNd/preview"
-              },
-              {
-                title: "Extempore & JAM",
-                desc: "Drills focused on spontaneous speaking to enhance critical thinking and coherence under pressure.",
-                embedUrl: "https://drive.google.com/file/d/1XtAuPrKaMFmPmbJNVioStXJdy_NKGVWR/preview"
-              },
-              {
-                title: "Group Discussion (GD)",
-                desc: "Collaborative problem-solving exercise emphasizing active listening and structured argumentation.",
-                embedUrl: "https://drive.google.com/file/d/1uB4E8Xpegu3YfcfuXqKzbzeWE0ycOz08/preview"
-              },
-              {
-                title: "Interview Skills",
-                desc: "Mock interviews covering technical concepts and behavioral questions using the STAR method.",
-                embedUrl: "https://drive.google.com/file/d/1kqORstnYwbr1JnPgmqq4UVA4gudJ08R6/preview"
-              }
-            ].map((session, index) => (
-              <div
-                key={index}
-                className="bg-gray-800/40 rounded-3xl border border-gray-700/60 overflow-hidden hover:border-blue-500/50 hover:-translate-y-1 hover:shadow-2xl hover:shadow-blue-900/20 transition-all duration-300 flex flex-col group"
-              >
-                <div className="relative aspect-video w-full bg-black">
-                  <div className="absolute inset-0 z-0 bg-gradient-to-br from-black via-gray-950 to-black"></div>
-                  <iframe
-                    className="relative z-10 w-full h-full"
-                    src={session.embedUrl}
-                    title={session.title}
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-
-                <div className="p-6 md:p-8">
-                  <h4 className="text-2xl font-bold text-white group-hover:text-blue-400 mb-2 transition-colors duration-300">
-                    {session.title}
-                  </h4>
-                  <p className="text-gray-400 text-sm md:text-base leading-relaxed">
-                    {session.desc}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      
 
       {/* Coding Profiles Section */}
       <section id="coding" className="py-24 px-6 bg-black/60">
