@@ -17,7 +17,6 @@ export default function App() {
             <a href="#about" className="hover:text-blue-400 transition">About</a>
             <a href="#skills" className="hover:text-blue-400 transition">Skills</a>
             <a href="#projects" className="hover:text-blue-400 transition">Projects</a>
-            <a href="#pese-600" className="hover:text-blue-400 transition">PESE-600</a>
             <a href="#coding" className="hover:text-blue-400 transition">Coding</a>
             <a href="#contact" className="hover:text-blue-400 transition">Contact</a>
           </div>
@@ -155,6 +154,11 @@ export default function App() {
               className="group bg-gray-800/50 p-8 rounded-2xl border border-gray-700 hover:border-blue-500 transition-all duration-300">
               <h4 className="text-2xl font-bold mb-2 group-hover:text-blue-400">HackerRank</h4>
               <p className="text-gray-400 text-sm">5 Star in Problem Solving & Java</p>
+            </a>
+            <a href="https://codeforces.com/profile/ishitaishita061" target="_blank" rel="noopener noreferrer"
+              className="group bg-gray-800/50 p-8 rounded-2xl border border-gray-700 hover:border-blue-500 transition-all duration-300">
+              <h4 className="text-2xl font-bold mb-2 group-hover:text-blue-400">Codeforces</h4>
+              <p className="text-gray-400 text-sm"></p>
             </a>
           </div>
         </div>
