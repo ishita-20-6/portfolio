@@ -99,7 +99,7 @@ export default function App() {
         <div className="max-w-5xl mx-auto text-center">
           <h3 className="text-3xl font-bold mb-12 text-blue-400">Skills</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {["HTML", "CSS", "JavaScript", "React", "Tailwind", "Node.js", "MongoDB", "Git"].map((skill) => (
+            {["C","C++","Java", "Python", "JavaScript", "React", "TailwindCSS", "Node.js", "MySQL", "MongoDB", "Git", "Docker"].map((skill) => (
               <div key={skill} className="bg-gray-800/50 p-6 rounded-2xl shadow-lg hover:scale-105 hover:-translate-y-2 hover:bg-blue-500/20 transition duration-300">
                 {skill}
               </div>
