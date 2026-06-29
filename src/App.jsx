@@ -60,7 +60,7 @@ export default function App() {
         </h2>
 
         <p className="text-lg text-gray-400 mb-6 max-w-xl">
-          Frontend Developer passionate about building beautiful and responsive web applications.
+          Backend Developer passionate about building beautiful and responsive web applications.
         </p>
 
         <div className="flex gap-6 text-2xl mb-8">
